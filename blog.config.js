@@ -2,7 +2,7 @@
 const BLOG = {
   AUTHOR: '花酱', // 作者
   BIO: '一个干饭人🍚', // 作者简介
-  LINK: 'https://tangly1024.com', // 网站地址
+  LINK: '11111', // 网站地址
   
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
