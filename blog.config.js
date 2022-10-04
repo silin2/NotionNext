@@ -4,7 +4,7 @@ const BLOG = {
   BIO: '一个干饭人🍚', // 作者简介
   LINK: '11111', // 网站地址
   
-  KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
+  KEYWORDS: '多多, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
   process.env.NOTION_PAGE_ID || 'aa89f92487384dfd9f7c20765def360a', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
@@ -144,7 +144,7 @@ const BLOG = {
     icon: 'icon'
   },
   AVATAR: '/avatar.png', // 作者头像，被notion中的ICON覆盖。如果没有ICON则取public目录下的avatar.png
-  TITLE: process.env.NEXT_PUBLIC_TITLE || 'NotionNext BLOG', // 站点标题 ，被notion中的页面标题覆盖
+  TITLE: process.env.NEXT_PUBLIC_TITLE || '多多', // 站点标题 ，被notion中的页面标题覆盖
   DESCRIPTION:
     process.env.NEXT_PUBLIC_DESCRIPTION || '这是一个由NotionNext生成的站点', // 站点描述，被notion中的页面描述覆盖
 
